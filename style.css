@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #EFEFEF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    height: 1700px;
+}
+
+hr{
+    margin-top: 16px;
+    margin-bottom: 36px;
+    width: 622px;
+    border: 1px solid #E6E6F0;
+}
+
+header{
+    height: 436px;
+    width: 100%;
+    background: #535971;
+    position: absolute;
+}
+
+.inicio{
+    margin:auto;
+    width: 750px;
+    text-align: left;
+    padding-top: 140px;
+    padding-bottom: 172px;
+}
+
+.inicio h1{
+    font-family: 'Staatliches';
+    font-size: 48px;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.inicio p{
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    width: 450px;
+}
+
+form{
+    position: absolute;
+    background: #ffffff;
+    top: 322px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 750px;
+    border-radius: 6px;
+    height: 1086px;
+}
+
+label{
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+
+fieldset div{
+    margin-top: 16px;
+}
+
+#nomesobrenome{
+    display: flex;
+    gap: 26px;
+}
+
+#nomesobrenome input{
+    width: 300px;
+    height: 56px;
+}
+
+form div input{
+    display: block;
+    width: 622px;
+    height: 56px;
+}
+
+fieldset{
+    border: none;
+    width: 622px;
+    margin: 32px auto 0;
+}
+
+legend{
+    font-family: 'Staatliches', cursive;
+    border: none;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 34px;
+    color:#535971;
+}
+
+h3{
+    margin-top:  32px;
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #535971;
+
+}
+
+#ment1, #ment2{
+    display: flex;
+    width: 622px;
+    gap: 10px;
+    margin-top: 0;
+}
+
+#final, #inicio{
+    width: 140px;
+}
+
+#data{
+    width: 300px;
+    margin-right: 32px;
+}
+
+#botao{
+    margin-top: 64px;
+    background: #535971;
+    height: 160px;
+    display: flex;
+    border-radius: 0 0 20px 20px ;
+    margin-bottom: 30px;
+}
+
+#but{
+    background: #FF5374;
+    border: none;
+    color: #EFEFEF;
+    margin: auto;
+    border-radius: 20px;
+    width: 608px;
+    height: 56px;
+}
+
+#but:hover{
+    background: #f86582;
+    cursor: pointer;
+}
+
+input{
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background-image: none;
+    padding-left: 10px;
+    color: #4E4958;
+    
+}
+
+span{
+    color: #C1BCCC;
+}
+
+input:invalid{
+    border: 2px solid #fc2d2d;
+}
